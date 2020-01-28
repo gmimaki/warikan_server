@@ -12,7 +12,7 @@ class WarikanApplication {
 	fun commandLineRunner(jdbcTemplate: JdbcTemplate) = CommandLineRunner {
 		jdbcTemplate.execute("""CREATE TABLE IF NOT EXISTS travel (
 			id BIGINT PRIMARY KEY AUTO_INCREMENT,
-			content VARCHAR(100) NOT NULL
+			name VARCHAR(100) NOT NULL
 		)""")
 	}
 }

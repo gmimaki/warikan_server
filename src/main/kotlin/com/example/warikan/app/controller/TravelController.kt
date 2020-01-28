@@ -11,7 +11,7 @@ import org.springframework.validation.BindingResult
 import org.springframework.validation.annotation.Validated
 import org.springframework.web.bind.annotation.*
 
-@Controller
+@RestController
 @RequestMapping("travels")
 class TravelController(private val travelRepository: TravelRepository) {
     @GetMapping("")
