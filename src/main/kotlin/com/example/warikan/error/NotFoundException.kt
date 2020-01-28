@@ -1,4 +1,4 @@
-package com.example.warikan.app.error
+package com.example.warikan.error
 
 import java.lang.RuntimeException
 

@@ -1,4 +1,4 @@
-package com.example.warikan.app.extenstions
+package com.example.warikan.extenstions
 
 import org.springframework.jdbc.core.JdbcTemplate
 

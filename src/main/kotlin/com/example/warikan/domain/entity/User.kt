@@ -1,4 +1,4 @@
-package com.example.warikan.app.domain.entity
+package com.example.warikan.domain.entity
 
 data class User (
         val id: Long,
